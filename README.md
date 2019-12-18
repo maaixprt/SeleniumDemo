@@ -1,4 +1,26 @@
 # SeleniumDemo
+Selenium automation test framework Build Status
+
+Recently, I plan to rewrite it with python. Friends who are interested can fork. First, you need to install python, and then install selenium lib pip install -U selenium.
+
+Use Selenium 3.x + testng + Jenkins + Maven
+
+Use Page object model
+
+Use log4j
+
+how to use:
+
+Install maven configuration environment variables
+git clone https://github.com/tobecrazy/SeleniumDemo.git
+mvn test can also use jenkins directly, trigger mvn test
+Use interface to process different versions of pages, use java reflection mechanism to implement page jumps, use java annotations to implement different types of reflection initialization, use singleton mode to implement initialization of unique driver objects, deprecated Ant, and introduce Spring
+
+8/19/2018 Introduced docker, using Selenium docker
+
+2017/6/21 Added python version of selenium Demo Description: Recently, we are engaged in crawlers and use python scrappy framework, so by the way, do python version of selenium and wrap the original method again in python. Friends who like to use python can also refer. The directory is: PythonSelnium 2018/6/4 Optimized HTML Report
+
+----------- 
 Selenium automation test framework
 [![Build Status](https://www.travis-ci.org/tobecrazy/SeleniumDemo.svg?branch=master)](https://www.travis-ci.org/tobecrazy/SeleniumDemo) 
 
