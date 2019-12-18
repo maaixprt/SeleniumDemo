@@ -74,11 +74,27 @@ Roadmap
 6. Selenium UI自动化优化测试脚本心得整理
 7. 加入图像对比，实现处理拖拽验证码
 8. 使用Jacoco 做code coverage
+------------------------------------
+Reptile related content will be added. Continually updated! !! !! !! 2018/07/21 It is recommended to use selenium docker, you can use docker image to build Grid directly. Configured VNC ports 5901 for chrome, 5902 for firefox.
+
+Roadmap
+
+Use Builder design pattern (Done)
+Optimization test report (in-progress)
+Use containers to abstract individual screenshot services
+Refactor page element loading function
+Add pre-judgment environment function, judge environment by http response code
+Selenium UI automation optimization test script experience finishing
+Add image comparison to handle drag verification codes
+Code coverage with Jacoco
+
+
 ![Alt text](https://github.com/tobecrazy/SeleniumDemo/blob/master/code%20coverage.png "Snapshot")
 
 ![Alt text](https://github.com/tobecrazy/Demo/blob/master/jenkins.png  "Snapshot")
 ![Alt text](https://github.com/tobecrazy/SeleniumDemo/blob/master/Jenkins%20code%20coverage%20.png  "Snapshot")
 9.使用Sonar 扫描代码code
+9. Scanning code with Sonar
 
 ![Alt text](https://github.com/tobecrazy/SeleniumDemo/blob/master/sonar.png  "Snapshot")
 10.使用findbugs
